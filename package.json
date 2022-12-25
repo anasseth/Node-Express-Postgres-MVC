@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bbachi/nodejs-restapi-mongo.git"
+    "url": "git+https://github.com/anasseth/Node-Express-Postgres-MVC.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/bbachi/nodejs-restapi-mongo/issues"
+    "url": "https://github.com/anasseth/Node-Express-Postgres-MVC/issues"
   },
-  "homepage": "https://github.com/bbachi/nodejs-restapi-mongo#readme",
+  "homepage": "https://github.com/anasseth/Node-Express-Postgres-MVC#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
