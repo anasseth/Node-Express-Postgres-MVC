@@ -88,7 +88,7 @@ class MovieRepository {
             logger.error('Error::' + err);
             return err;
         }
-        return data;
+        return "Movie Updated Successfully !";
     }
 
     async deleteMovie(movieId) {
@@ -104,7 +104,7 @@ class MovieRepository {
             logger.error('Error::' + err);
             return err;
         }
-        return data;
+        return "Movie Deleted Successfully !";
     }
 
     async deleteMovieSpecificProperty(movieId) {

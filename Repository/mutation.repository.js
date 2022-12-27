@@ -43,7 +43,7 @@ class MutationRepository {
         } catch (err) {
             logger.error('Error::' + err);
         }
-        return data;
+        return "Mutation Updated Successfully !";
     }
 
     async deleteEndpointMutation(mutationId) {
@@ -57,8 +57,7 @@ class MutationRepository {
         } catch (err) {
             logger.error('Error::' + err);
         }
-        return data;
-        return { status: `${data.deletedCount > 0 ? true : false}` };
+        return "Mutation Delete Successfully!";
     }
 
 }
